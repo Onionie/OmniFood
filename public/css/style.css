@@ -466,9 +466,7 @@
   /* padding: 9.6rem 0 12.8rem 0; */
 
   /* top / horizontal / left */
-  /* padding: 4.8rem 0 12.8rem; */
-
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
@@ -480,6 +478,11 @@
 
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
 }
 
 .cta .heading-secondary {
@@ -539,4 +542,17 @@
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
